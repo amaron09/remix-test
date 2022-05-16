@@ -1,0 +1,1 @@
+export const bruceAPI = `${process.env.API_URL}/v${process.env.API_VERSION}`

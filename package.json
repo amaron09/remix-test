@@ -1,0 +1,48 @@
+{
+  "name": "remix-template-vercel",
+  "private": true,
+  "description": "",
+  "license": "",
+  "sideEffects": false,
+  "scripts": {
+    "build": "SESSION_SECRET=2poaslda remix build",
+    "dev": "NODE_OPTIONS='--inspect' remix dev",
+    "postinstall": "remix setup node",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.4.3",
+    "@remix-run/react": "^1.4.3",
+    "@remix-run/vercel": "^1.4.3",
+    "@vercel/node": "^1.15.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@emotion/cache": "^11.7.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.2",
+    "@mui/x-data-grid": "^5.7.0",
+    "front-matter": "^4.0.2",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.12",
+    "tiny-invariant": "^1.2.0",
+    "remix": "^1.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.4.3",
+    "@remix-run/eslint-config": "^1.4.3",
+    "@remix-run/serve": "^1.4.3",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "eslint": "^8.15.0",
+    "typescript": "^4.6.4",
+    "@types/lodash": "^4.14.181",
+    "@types/marked": "^4.0.2",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

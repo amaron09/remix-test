@@ -1,0 +1,37 @@
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.login {
+  width: 100%;
+  max-width: 400px;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.bruceLogo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 96px;
+  margin: 1rem auto 2rem auto;
+}
+
+.form > * {
+  margin-bottom: 1rem;
+}
+
+.credentials:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: none;
+  padding: 0;
+}
